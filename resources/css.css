@@ -1,0 +1,105 @@
+@font-face {
+  font-family: 'SamsungSans';
+  url('resources/samsung-sans-4-cufonfonts/SamsungSans-Bold.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'SamsungSans';
+  url('resources/samsung-sans-4-cufonfonts/SamsungSans-Light.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'SamsungSans';
+url('resources/samsung-sans-4-cufonfonts/SamsungSans-Medium.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'SamsungSans';
+  url('resources/samsung-sans-4-cufonfonts/SamsungSans-Regular.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'SamsungSans';
+  url('resources/samsung-sans-4-cufonfonts/SamsungSans-Thin.ttf') format('ttf');
+}
+* {
+  font-size: 100%;
+  font-family: 'SamsungSans',Fallback, sans-serif;
+}
+.container {
+  position: relative;
+  margin: 0 auto;
+}
+.container .choose-option {
+  margin: 0 auto;
+  width: 40%;
+  margin-top: 100px;
+}
+.container .choose-option button a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.container .column button a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.container .choose-option .clip {
+  float: right;
+  transform: scale(2);
+}
+
+.container .choose-option .image {
+  float: left;
+  transform: scale(2);
+}
+.container .title {
+  text-align: center;
+}
+
+.title h2 {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px; 
+}
+
+.column {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+.youtube {
+  margin: 0 auto;
+  width: 560px;
+}
+
+.youtube h4 {
+  text-align: center;
+}
+
+.download {
+  text-align: center;
+  padding: 10px 0;
+}
+
+a:hover{
+  text-decoration: none;
+  background: #007bff;
+  color: white;
+}
+
+tbody tr {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
